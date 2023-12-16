@@ -17,7 +17,7 @@ npm i @kokkoro/core
 ```
 3.填写机器人信息  
 
-登录[QQ开放平台](https://q.qq.com/)获取机器人**AppID**，**token**，**AppSecret**，并填写到index.js中  
+登录[QQ开放平台](https://q.qq.com/)获取机器人**AppID**，**token**，**AppSecret**，并填写到config.js中  
 
 4.启动
 ```shell
