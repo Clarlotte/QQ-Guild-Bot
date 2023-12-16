@@ -3,7 +3,13 @@
 
 ## Install
 1.克隆项目
-
 ```shell
 git clone https://github.com/Clarlotte/QQ-Guild-Bot.git
+```
+2.安装依赖
+```shell
+npm i amesu
+```
+```shell
+npm i @kokkoro/core
 ```
