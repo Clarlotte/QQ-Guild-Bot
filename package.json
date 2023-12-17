@@ -1,0 +1,30 @@
+{
+  "name": "qq-guild",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "@kokkoro/core": "^3.0.4",
+    "amesu": "^2.1.1",
+    "date-format": "^4.0.14",
+    "debug": "^4.3.4",
+    "flatted": "^3.2.9",
+    "fs-extra": "^8.1.0",
+    "graceful-fs": "^4.2.11",
+    "jsonfile": "^4.0.0",
+    "kokkoro": "^2.0.1",
+    "log4js": "^6.9.1",
+    "ms": "^2.1.2",
+    "rfdc": "^1.3.0",
+    "streamroller": "^3.1.5",
+    "universalify": "^0.1.2",
+    "ws": "^8.14.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
