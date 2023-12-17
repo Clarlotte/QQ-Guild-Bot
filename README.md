@@ -27,3 +27,6 @@ node --experimental-import-meta-resolve app.js
 ```shell
 pm2 start node --name qq-guild -- --experimental-import-meta-resolve app.js
 ```
+## 项目地址
+Gitee：[QQ-Guild-Bot](https://gitee.com/clarlotte/qq-guild-bot)
+Github：[QQ-Guild-Bot](https://github.com/Clarlotte/QQ-Guild-Bot)
