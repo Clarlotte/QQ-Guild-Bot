@@ -1,37 +1,29 @@
-# QQ-Guild Bot
+## QQ-Guild-Bot
+基于[kokkoro](https://github.com/kokkorojs/kokkoro)框架，[amesu](https://github.com/xueelf/amesu)的SDK for Node.js进行搭建QQ频道机器人
+## 介绍
+目前仅支持QQ频道使用，且仅有指令身份认证，取消身份组两个指令
+如需自己开发插件，将插件新建于plugins中，并在app.js中mount
+## Install
+1.克隆项目
+```shell
+git clone https://github.com/Clarlotte/QQ-Guild-Bot.git
+```
+2.安装依赖
+```shell
+npm i amesu
+```
+```shell
+npm i @kokkoro/core
+```
+3.填写机器人信息  
 
-#### 介绍
-基于kokkoro框架，amesu的SDK for Node.js进行搭建QQ频道机器人
+登录[QQ开放平台](https://q.qq.com/)获取机器人**AppID**，**token**，**AppSecret**，并填写到config.js中  
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+4.启动
+```shell
+node --experimental-import-meta-resolve app.js
+```
+使用pm2启动
+```shell
+pm2 start node --name qq-guild -- --experimental-import-meta-resolve app.js
+```
