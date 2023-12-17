@@ -1,4 +1,4 @@
-## QQ-Guild-Bot
+## QQ-Guild Bot
 基于[kokkoro](https://github.com/kokkorojs/kokkoro)框架，[amesu](https://github.com/xueelf/amesu)的SDK for Node.js进行搭建QQ频道机器人
 ## 介绍
 目前仅支持QQ频道使用，且仅有指令身份认证，取消身份组两个指令
