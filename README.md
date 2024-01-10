@@ -10,11 +10,10 @@ git clone https://github.com/Clarlotte/QQ-Guild-Bot.git
 ```
 2.安装依赖
 ```shell
-npm i amesu
+npm i 
 ```
-```shell
-npm i @kokkoro/core
-```
+若运行中有部分依赖提示未安装，请自行安装
+
 3.填写机器人信息  
 
 登录[QQ开放平台](https://q.qq.com/)获取机器人**AppID**，**token**，**AppSecret**，并填写到config.js中  
