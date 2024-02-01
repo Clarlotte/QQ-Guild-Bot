@@ -17,6 +17,7 @@ npm i
 3.填写机器人信息  
 
 登录[QQ开放平台](https://q.qq.com/)获取机器人**AppID**，**token**，**AppSecret**，并填写到config.js中  
+登录[高德开放平台](https://lbs.amap.com/)，并创建web服务应用获取**key**，登录[彩云天气](https://platform.caiyunapp.com/login)，并创建应用，选择天气，获取**key**
 
 4.启动
 ```shell
